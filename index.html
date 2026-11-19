@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09130f">
+  <meta name="description" content="Lakshmanan Rajaram — embedded firmware engineer. ARM Cortex-M, BLE, RTOS, medical devices, and edge machine learning. Explore projects, experience, and engineering notes.">
+  <meta property="og:title" content="Lakshmanan Rajaram | Embedded Firmware Engineer">
+  <meta property="og:description" content="From register to radio to inference. Firmware for small, battery-powered, sometimes life-critical devices.">
+  <meta property="og:type" content="website">
+  <title>Lakshmanan Rajaram | Embedded Firmware Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>try{if(localStorage.getItem('portfolio-theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="#home" class="brand" aria-label="Lakshmanan, home"><span class="brand-chip">LR</span><span>lakshmanan<span class="accent">.fw</span></span></a>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#stack">Stack</a><a href="#education">Education</a><a href="#notes">Notes</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle icon-button" type="button" aria-label="Switch to light mode" title="Switch to light mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+        <a class="nav-contact" href="#contact">Get in touch</a>
+        <button class="menu-toggle icon-button" aria-expanded="false" aria-controls="navigation" aria-label="Open navigation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Firmware · Embedded · Real-time</p>
+        <h1 id="hero-title">Lakshmanan<br><span>Rajaram.</span></h1>
+        <p class="hero-statement">I write firmware for small, battery-powered, sometimes life-critical devices.</p>
+        <p class="hero-summary">Embedded firmware engineer working across ARM Cortex-M, BLE, RTOS, and edge ML. From the first peripheral interrupt to a production medical-device release.</p>
+        <div class="actions"><a href="#projects" class="button primary">Explore my work</a><a href="assets/Lakshmanan-Rajaram-Resume.pdf" class="button secondary" download>Download résumé <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 12v5h14v-5"/></svg></a></div>
+        <p class="location"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15.5 8c0 4-5.5 9-5.5 9S4.5 12 4.5 8a5.5 5.5 0 1 1 11 0Z"/><circle cx="10" cy="8" r="1.8"/></svg>Aurora, Colorado <span class="location-divider">/</span> Open to firmware & embedded roles</p>
+      </div>
+      <div class="hero-board">
+        <div class="board-top"><span class="mono">ENGINEER PROFILE</span><span class="mono copper">REV A</span></div>
+        <svg class="circuit-traces" viewBox="0 0 520 540" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1.3"><path d="M0 105h60l40 40h58M0 170h70l30 30h58M0 270h158M0 370h65l45-45h48M520 120h-62l-45 45h-50M520 230H363M520 320h-55l-35-35h-67M520 410h-65l-55-55h-37M210 0v84M260 0v84M310 0v84M210 455v85M260 455v85M310 455v85"/><rect x="145" y="85" width="230" height="370" rx="8"/><path d="M130 110h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15M375 110h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15m-15 30h15"/></g>
+          <g fill="var(--bg)" stroke="currentColor" stroke-width="1.5"><circle cx="60" cy="105" r="4"/><circle cx="65" cy="370" r="4"/><circle cx="458" cy="120" r="4"/><circle cx="465" cy="320" r="4"/><circle cx="210" cy="37" r="4"/><circle cx="310" cy="503" r="4"/></g>
+          <path class="signal" d="M0 270h158M520 230H363" stroke="var(--accent)" stroke-width="2"/>
+        </svg>
+        <figure class="portrait"><img src="assets/lakshmanan-rajaram.jpg" alt="Portrait of Lakshmanan Rajaram" width="1050" height="1400" fetchpriority="high"><figcaption><span>LAKSHMANAN R.</span><span>FIRMWARE ENGINEER</span></figcaption></figure>
+        <span class="board-label label-left mono">C / C++<br>ARM CORTEX-M</span><span class="board-label label-right mono">BLE<br>RTOS</span>
+        <div class="board-bottom mono"><span>HARDWARE × SOFTWARE</span><span class="copper">CO, USA</span></div>
+      </div>
+    </section>
+    <div class="metrics section-wrap" aria-label="Career highlights">
+      <div><span class="mono">Engineering experience</span><strong>5 years</strong><p>Firmware, medical devices & robotics</p></div>
+      <div><span class="mono">Medical device firmware</span><strong>3 years</strong><p>vTitan & Phoenix Medical Systems</p></div>
+      <div><span class="mono">Education</span><strong>M.Eng.</strong><p>Computer Engineering · CSU, 2026</p></div>
+      <div><span class="mono">Research</span><strong>IEEE</strong><p>Real-time human detection & tracking</p></div>
+    </div>
+    <section id="about" class="section-wrap section" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">About / Engineering approach</p><h2 id="about-title">From register to radio<br>to inference<span class="accent">.</span></h2></div>
+      <div class="about-intro"><p>I like the layer where software meets a physical constraint: a flash page, a connection interval, a milliwatt.</p><p>My background is ARM Cortex-M firmware in C and C++, with wireless work on Nordic nRF52 and a focus on running machine learning at the edge. I bring hardware integration, methodical debugging, and verification into the same development loop.</p></div>
+      <div class="capabilities">
+        <article><span class="cap-icon" aria-hidden="true">⌘</span><h3>Bare-metal & RTOS</h3><p>FreeRTOS and Zephyr. Tasks, drivers, interrupts, and the buses that connect them.</p></article>
+        <article><svg class="cap-icon" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m8 8 13 12-7 6V2l7 6L8 20"/></svg><h3>Bluetooth Low Energy</h3><p>GATT/GAP, secure pairing, and connection parameter tuning for reliable, efficient devices.</p></article>
+        <article><svg class="cap-icon" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 2 24 6v8c0 6-10 12-10 12S4 20 4 14V6Z"/><path d="m9 14 3 3 7-7"/></svg><h3>Medical-device process</h3><p>IEC 62304 workflows, requirements traceability, risk documentation, and firmware V&V.</p></article>
+        <article><svg class="cap-icon" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="6" y="6" width="16" height="16" rx="2"/><path d="M10 2v4m8-4v4M10 22v4m8-4v4M2 10h4m-4 8h4m16-8h4m-4 8h4"/><path d="M10 14h8m-4-4v8"/></svg><h3>Edge ML</h3><p>TensorFlow Lite on STM32, plus perception and embedded systems on Jetson Nano and Raspberry Pi.</p></article>
+      </div>
+    </section>
+    <section id="experience" class="section-wrap section" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">Experience / Signal path</p><h2 id="experience-title">From prototype to production<span class="accent">.</span></h2><p>Engineering work across connected medical devices, embedded interfaces, and autonomous systems.</p></div>
+      <div class="timeline">
+        <article class="job"><div class="job-meta"><span class="mono">OCT 2022 — OCT 2024</span><p>Chennai, India</p></div><div class="job-body"><p class="role">Embedded Software Engineer</p><h3>vTitan Corporation</h3><ul><li>Delivered production C/C++ firmware for ARM Cortex-M and Nordic nRF52 wearable medical-device platforms, from module development and hardware integration through multiple releases.</li><li>Developed BLE communication with GATT/GAP, advertising, secure pairing and bonding, encrypted transmission, and connection parameter tuning.</li><li>Resolved peripheral, interrupt, and BLE timing defects using logic analyzers, BLE sniffers, JTAG/GDB, and datasheet-led analysis.</li><li>Supported IEC 62304 development with Python test automation, verification and validation, requirements traceability, and modular software architecture.</li></ul><div class="tags"><span>C / C++</span><span>Nordic nRF52</span><span>BLE</span><span>Embedded Wizard</span><span>IEC 62304</span></div></div></article>
+        <article class="job"><div class="job-meta"><span class="mono">OCT 2021 — OCT 2022</span><p>Chennai, India</p></div><div class="job-body"><p class="role">Embedded Engineer</p><h3>Phoenix Medical Systems</h3><ul><li>Built firmware for medical devices using ST/Dialog ARM Cortex-M, PIC, and AVR microcontrollers, controlling ADCs, timers, UART, sensors, and peripherals.</li><li>Integrated BLE modules and validated hardware/software interfaces using oscilloscopes, multimeters, and hardware-level debugging.</li><li>Contributed to production releases through integration testing, verification evidence, risk mitigation records, and Qt-based device interfaces.</li></ul><div class="tags"><span>ARM Cortex-M</span><span>PIC / AVR</span><span>Qt</span><span>Hardware integration</span></div></div></article>
+        <article class="job"><div class="job-meta"><span class="mono">JAN 2020 — AUG 2021</span><p>Chennai, India</p></div><div class="job-body"><p class="role">Technical Engineer</p><h3>A.I. School of India</h3><ul><li>Developed real-time computer vision and autonomous robotics systems on NVIDIA Jetson Nano, Raspberry Pi, AVR, and ATmega platforms.</li><li>Integrated sensor acquisition and actuator-control firmware with higher-level perception and control software.</li><li>Debugged hardware/software integration from initial prototypes through field-ready deployment; gained familiarity with OpenWrt and OpenSync device-management architecture.</li></ul><div class="tags"><span>Jetson Nano</span><span>Raspberry Pi</span><span>Computer vision</span><span>Robotics</span></div></div></article>
+      </div>
+    </section>
+    <section id="projects" class="section-wrap section" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">Selected work / Featured case studies</p><h2 id="projects-title">Boards I’ve brought up.<br>Systems I’ve built<span class="accent">.</span></h2><p>From firmware and edge intelligence to digital logic. Select a project to explore its implementation.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-visual scope" aria-label="Illustrative heartbeat waveform, not measured project data"><div class="visual-meta mono"><span>EDGE INFERENCE</span><span>STM32</span></div><svg viewBox="0 0 600 160" fill="none" aria-hidden="true"><path d="M0 95h65l10-8 12 8h20l12-25 13 70 16-115 17 70h35l13-12 12 12h52l10-8 12 8h20l12-25 13 70 16-115 17 70h35l13-12 12 12h52l10-8 12 8h20l12-25 13 70 16-115 17 70h65" stroke="currentColor" stroke-width="2"/></svg><div class="signal-chain mono"><span>LSTM</span><i></i><span>TFLITE</span><i></i><span>MCU</span></div></div>
+          <div class="project-content"><p class="eyebrow copper">Embedded machine learning</p><h3>CardioClassifier</h3><p>A heart murmur classification pipeline, from an LSTM model to real-time inference on an STM32 microcontroller.</p><div class="tags"><span>STM32WB5MMGHTR</span><span>TensorFlow Lite</span><span>LSTM</span></div><button class="text-button" data-detail="cardio">Read case study <span aria-hidden="true">+</span></button></div>
+        </article>
+        <article class="project-card"><div class="project-visual terminal" aria-label="Illustrative UART shell"><div class="visual-meta mono"><span>SERIAL CONSOLE</span><span>FREERTOS</span></div><div class="terminal-lines mono"><span class="muted">// NucleoOS · STM32F446RE</span><br><span class="accent">nucleo&gt;</span> gpio<br><span class="accent">nucleo&gt;</span> tasks<br><span class="accent">nucleo&gt;</span> <span class="cursor">▌</span></div></div><div class="project-content"><p class="eyebrow copper">OS / UART shell</p><h3>NucleoOS</h3><p>A FreeRTOS-based command shell with a GPIO subsystem, shell commands, and task management on an STM32 Nucleo.</p><div class="tags"><span>STM32F446RE</span><span>FreeRTOS</span><span>C</span><span>UART</span></div><button class="text-button" data-detail="nucleo">Read case study <span aria-hidden="true">+</span></button></div></article>
+        <article class="project-card"><div class="project-visual radar"><div class="visual-meta mono"><span>RADAR TARGET TRACKING</span><span>MODEL COMPARISON</span></div><div class="comparison"><div><strong>5.7<span>m</span></strong><span class="mono">PINN RMSE</span></div><span class="versus mono">vs</span><div class="baseline"><strong>28.9<span>m</span></strong><span class="mono">CV KALMAN RMSE</span></div></div></div><div class="project-content"><p class="eyebrow copper">Signal processing</p><h3>PINN Radar Target Tracker</h3><p>A physics-informed neural network for target tracking, compared with a constant-velocity Kalman filter.</p><div class="tags"><span>PyTorch</span><span>PINN</span><span>Kalman filter</span></div><button class="text-button" data-detail="radar">Read case study <span aria-hidden="true">+</span></button></div></article>
+        <article class="project-card"><div class="project-visual linux"><div class="visual-meta mono"><span>EMBEDDED LINUX</span><span>CUSTOM IMAGE</span></div><div class="build-flow mono"><span>meta-hello</span><i></i><span>Yocto</span><i></i><span>qemuarm</span></div><p class="mono muted">CUSTOM LAYER · ARM TARGET · QEMU BOOT</p></div><div class="project-content"><p class="eyebrow copper">Embedded Linux</p><h3>Custom Yocto image</h3><p>A custom qemuarm image built in an Ubuntu ARM64 VM, with a dedicated meta-hello layer.</p><div class="tags"><span>Yocto</span><span>QEMU</span><span>ARM64</span></div><button class="text-button" data-detail="yocto">Read case study <span aria-hidden="true">+</span></button></div></article>
+      </div>
+      <h3 class="subheading">More from the workbench</h3>
+      <div class="project-list">
+        <button data-detail="alu"><span><span class="mono copper">DIGITAL DESIGN</span><strong>Parameterized RISC-V ALU</strong></span><span class="project-list-tech">Verilog · 32-bit RTL</span><span class="plus" aria-hidden="true">+</span></button>
+        <button data-detail="axi"><span><span class="mono copper">SOC INTERFACES</span><strong>AXI-Lite Slave Peripheral</strong></span><span class="project-list-tech">SystemVerilog · FSM</span><span class="plus" aria-hidden="true">+</span></button>
+        <button data-detail="uart"><span><span class="mono copper">SERIAL COMMUNICATION</span><strong>UART Controller · TX / RX</strong></span><span class="project-list-tech">Verilog · FIFO buffering</span><span class="plus" aria-hidden="true">+</span></button>
+        <button data-detail="solar"><span><span class="mono copper">CONNECTED SYSTEMS</span><strong>Electric Solar Car</strong></span><span class="project-list-tech">ESVC 2019 · Two awards</span><span class="plus" aria-hidden="true">+</span></button>
+        <button data-detail="chef"><span><span class="mono copper">AUTONOMOUS DEVICES</span><strong>Smart Chef</strong></span><span class="project-list-tech">ACCS 2019 · Finalist</span><span class="plus" aria-hidden="true">+</span></button>
+      </div>
+      <aside class="publication"><span class="mono copper">IEEE / Publication</span><div><h3>Real-time detection and tracking of human based on image processing with laser pointing</h3><p>Research in real-time computer vision, object tracking, and embedded systems. Published in IEEE Xplore.</p></div></aside>
+    </section>
+    <section id="stack" class="section-wrap section" aria-labelledby="stack-title">
+      <div class="section-heading"><p class="eyebrow">Technical skills / Pinout</p><h2 id="stack-title">The tools behind the work<span class="accent">.</span></h2><p>A technical stack organized from application code down to the bench.</p></div>
+      <div class="skills-matrix">
+        <div class="skill-row"><h3>Languages & RTL</h3><p>C · C++ · Embedded C · Assembly · Python · Verilog · SystemVerilog</p></div>
+        <div class="skill-row"><h3>MCUs & SoCs</h3><p>ARM Cortex-M / Cortex-A · STM32 · Nordic nRF52 · NXP · ST/Dialog · PIC · AVR / ATmega · NVIDIA Jetson Nano · Raspberry Pi</p></div>
+        <div class="skill-row"><h3>RTOS & kernels</h3><p>Zephyr RTOS · FreeRTOS · Embedded Linux · Real-time systems · Low-power embedded design</p></div>
+        <div class="skill-row"><h3>Buses & connectivity</h3><p>SPI · I2C · UART · BLE · GATT/GAP · Secure pairing & bonding · LTE · MQTT</p></div>
+        <div class="skill-row"><h3>Peripherals & control</h3><p>GPIO · ADC / DAC · Timers · DMA · Interrupts · Sensors · Low-power modes · Event-driven firmware</p></div>
+        <div class="skill-row"><h3>Debug & lab</h3><p>JTAG · GDB · Logic analyzers · Oscilloscopes · Multimeters · BLE sniffers · RF debugging · Waveform analysis</p></div>
+        <div class="skill-row"><h3>Verification & quality</h3><p>White-box unit testing · Integration, regression & stress testing · Python test automation · Firmware V&V · RTL simulation</p></div>
+        <div class="skill-row"><h3>Medical-device process</h3><p>FDA-regulated firmware development · IEC 62304 · Requirements traceability · Risk mitigation documentation</p></div>
+        <div class="skill-row"><h3>ML, UI & workflow</h3><p>TensorFlow Lite · LSTM · Embedded Wizard · Qt · Git · Agile development</p></div>
+        <div class="skill-row"><h3>Platform familiarity</h3><p>OpenWrt build system, package management & UCI · OpenSync Managers, OVSDB configuration & MQTT telemetry</p></div>
+      </div>
+    </section>
+    <section id="education" class="section-wrap section" aria-labelledby="education-title">
+      <div class="section-heading"><p class="eyebrow">Education / Foundations</p><h2 id="education-title">Built on solid fundamentals<span class="accent">.</span></h2></div>
+      <div class="education-grid">
+        <article><span class="mono copper">AUG 2024 — MAY 2026</span><h3>Master of Engineering</h3><p class="degree">Computer Engineering</p><div class="school">Colorado State University<span>Fort Collins, Colorado</span></div><p>Real-Time Operating Systems, Embedded Machine Learning, Low-Power Design, and Edge Computing.</p><span class="gpa mono">GPA · 3.355</span></article>
+        <article><span class="mono copper">AUG 2016 — 2020</span><h3>Bachelor of Engineering</h3><p class="degree">Electrical and Electronics Engineering</p><div class="school">S.A. Engineering College<span>Chennai, India</span></div><p>A foundation in electrical and electronics engineering, carried into embedded firmware and connected systems.</p></article>
+      </div>
+    </section>
+    <section id="notes" class="section-wrap section" aria-labelledby="notes-title">
+      <div class="section-heading"><p class="eyebrow">Notes / From the workbench</p><h2 id="notes-title">A closer look at the engineering<span class="accent">.</span></h2><p>Short project notes on implementation, validation, and the path from software to hardware.</p></div>
+      <div class="notes-grid">
+        <article><span class="mono copper">EDGE ML · PROJECT NOTE</span><h3>From an LSTM model to an STM32</h3><p>The training, conversion, and deployment stages behind CardioClassifier.</p><button class="text-button" data-detail="note-ml">Read note <span aria-hidden="true">+</span></button></article>
+        <article><span class="mono copper">BLE · ENGINEERING NOTE</span><h3>Debugging across the radio boundary</h3><p>Connecting packet-level evidence with peripheral and interrupt timing.</p><button class="text-button" data-detail="note-ble">Read note <span aria-hidden="true">+</span></button></article>
+        <article><span class="mono copper">RTL · PROJECT NOTE</span><h3>Making hardware behavior visible</h3><p>Simulation and waveform analysis across an ALU, AXI-Lite peripheral, and UART.</p><button class="text-button" data-detail="note-rtl">Read note <span aria-hidden="true">+</span></button></article>
+      </div>
+    </section>
+    <section id="contact" class="section-wrap section contact" aria-labelledby="contact-title">
+      <div class="contact-panel"><div><p class="eyebrow">Contact / Make a connection</p><h2 id="contact-title">Let’s bring up<br>your board<span class="accent">.</span></h2><p>Open to firmware and embedded software roles.<br>Based in Colorado. Ready to talk engineering.</p></div><div class="contact-actions"><a class="button primary" href="mailto:lakshmanan71999@gmail.com">Get in touch</a><a class="email-link" href="mailto:lakshmanan71999@gmail.com">lakshmanan71999@gmail.com</a><button class="copy-email" type="button">Copy email address</button><span id="copy-status" class="mono" role="status" aria-live="polite"></span></div></div>
+    </section>
+  </main>
+  <footer class="section-wrap"><a class="brand" href="#home"><span class="brand-chip">LR</span><span>lakshmanan<span class="accent">.fw</span></span></a><p>© <span id="year">2026</span> Lakshmanan Rajaram</p><span class="mono">FROM REGISTER TO RADIO</span></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span id="detail-category" class="eyebrow"></span><button type="button" class="dialog-close icon-button" aria-label="Close detail"><span aria-hidden="true">×</span></button></div><h2 id="detail-title"></h2><div id="detail-content"></div><button class="button secondary dialog-close" type="button">Back to portfolio</button></dialog>
+</body>
+</html>
